@@ -10,7 +10,8 @@ pipeline{
       steps{
       
         sh ''' #/bin/bash -ex
-             apt-get update && apt install git     
+             apt-get update && apt install git
+           '''
       
       } // end steps
     } // end pull code stage
